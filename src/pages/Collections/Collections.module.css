@@ -1,0 +1,33 @@
+.collectionsPage {
+  padding-top: calc(var(--header-height) + 2rem);
+  padding-bottom: 7rem;
+  background-color: var(--bg-primary);
+  min-height: 100vh;
+}
+
+.pageHero {
+  padding: 3rem 0 4rem 0;
+  border-bottom: 1px solid var(--border-glass);
+  margin-bottom: 3rem;
+}
+
+.heroContent {
+  max-width: 800px;
+}
+
+.pageTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(2.8rem, 5vw, 4.2rem);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.pageDesc {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.catalogMain {
+  margin-top: 1rem;
+}

@@ -1,0 +1,29 @@
+.breadcrumbsNav {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.crumbLink {
+  color: var(--text-secondary);
+  transition: color var(--transition-fast);
+}
+
+.crumbLink:hover {
+  color: var(--accent-gold);
+}
+
+.separator {
+  color: rgba(201, 168, 106, 0.4);
+}
+
+.currentCrumb {
+  color: var(--accent-gold);
+  font-weight: 600;
+}
